@@ -1,0 +1,26 @@
+idf_component_register(
+      SRCS
+          "main.c"
+          "audio/aixiaozhi_codec.c"
+          "audio/aixiaozhi_opus_encoder.c"
+          "audio/aixiaozhi_opus_decoder.c"
+          "audio/aixiaozhi_sr.c"
+          "button/aixiaozhi_button.c"
+          "display/aixiaozhi_display.c"
+          "display/aixiaozhi_lcd.c"
+          "button/aixiaozhi_button.c"
+          "display/aixiaozhi_display.c"
+          "display/aixiaozhi_lcd.c"
+          "internet/aixiaozhi_active.c"
+          "internet/aixiaozhi_wifi.c"
+          "internet/aixiaozhi_ws.c"
+        
+      INCLUDE_DIRS
+          "."
+          "button"
+          "internet"
+          "display"
+          "common"
+          "audio"
+          "pre_data"
+)

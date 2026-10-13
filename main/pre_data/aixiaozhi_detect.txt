@@ -1,0 +1,1 @@
+"{\"type\":\"listen\",\"state\":\"detect\",\"text\":\"你好，小智\"}"
